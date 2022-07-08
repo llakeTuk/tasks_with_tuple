@@ -10,3 +10,4 @@ while y == 'y':
   tpl = tuple(input_list)
   tpl_sort(tpl)
   y = input('restart?(y/n): ')
+print('goodbye')
