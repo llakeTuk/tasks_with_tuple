@@ -9,4 +9,4 @@ while y == 'y':
   input_list = input('enter list of elements, using comma: ').split(',')
   print(sieve(input_list))
   y = input('restart?(y/n): ')
-print(goodbye)
+print('goodbye')
