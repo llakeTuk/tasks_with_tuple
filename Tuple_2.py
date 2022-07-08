@@ -15,4 +15,4 @@ while y == 'y':
   tpl = tuple(input_list)
   print(slicing(tpl, element))
   y = input('restart?(y/n): ')
-print(goodbye)
+print('goodbye')
