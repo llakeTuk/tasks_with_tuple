@@ -1,6 +1,6 @@
-def del_element_from_tpl(tpl, element):
-  if element in tpl:
-    elem_index = tpl.index(element)
+def del_element_from_tpl(tpl, elem):
+  if elem in tpl:
+    elem_index = tpl.index(elem)
     return tpl[:elem_index] + tpl[elem_index + 1:]
   return tpl
 y = 'y'
