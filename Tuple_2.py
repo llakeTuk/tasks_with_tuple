@@ -8,6 +8,7 @@ def slicing(tpl, element):
       return tpl[tpl.index(element) :]
   else:
     return ()
+
 y = 'y'
 while y == 'y':
   input_list = input('enter tuple of elements, using comma: ').split(',')
