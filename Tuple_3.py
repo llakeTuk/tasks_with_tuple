@@ -4,6 +4,7 @@ def sieve(lst):
     if elem not in unique_lst:
       unique_lst.append(elem)
   return tuple(unique_lst)
+
 y = 'y'
 while y == 'y':
   input_list = input('enter list of elements, using comma: ').split(',')
