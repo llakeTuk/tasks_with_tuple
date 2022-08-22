@@ -3,6 +3,7 @@ def del_element_from_tpl(tpl, element):
   if element in input_lst:
     input_lst.remove(element)
   return tuple(input_lst)
+
 y = 'y'
 while y == 'y':
   input_tpl = input('enter tuple of elements, using comma: ').split(',')
